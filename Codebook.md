@@ -99,10 +99,17 @@ The type of each column and first a few values for each column are listed as bel
 The following steps are taken to accomplish this data cleaning analysis:
 
 step 1: download and unzip files
+
 step 2: read X_test,X_train.y_test,y_train,Subject_test,Subject_train,features and activity_lables text files into dataframes
+
 step 3: combine y_test and subject_test, and also combine y_train and subject_train by coloumn into dataframes
+
 step 4: concatenate X_train and X_test data
+
 step 5: read-in the features.txt, and then subset to those feature names with "mean()" and "std(), subset the combined X test and train data from step 4 to those subsetted features
+
 step 6: Combine the X and Y data together and then calculate the mean of each of the 66 columns for each of the 180 combinations of activity and subject
+
 step 7: read-in the activity labels from activity_lables.txt and then merge to the data from step 6,and then replace the activity with activity labels. then sorr the data based on activity and subject
+
 step 8: output the generated tidy data into a txt file
